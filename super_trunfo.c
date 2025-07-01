@@ -3,30 +3,26 @@
 int main(){
     printf("Desafio Cartas Super Trunfo!\n");
     printf("commit\n");
+    printf("commit\n");
     
-    int cidade;
-    int Estado;
+    char estado;
+    char A;
     char codigo;
-    int populaçao;
-    double area;
-    double pib;
-    int pontos;
+    char A01;
+    char nome;
+    char saoPaulo;
+    int populacao=12325000;
+    double area=1521.11;
+    double pib=699.28;
+    int pontos=50;
 
-    saoPaulo.estado, 'A';
-    saoPaulo.codigo, "A01";
-    saoPaulo.nome, "São Paulo";
-    saoPaulo.populacao = 12325000;
-    saoPaulo.area = 1521.11;
-    saoPaulo.pib = 699.28;
-    saoPaulo.pontos_turisticos = 50;
-
-    printf("Cidade: %s\n", saoPaulo.cidade);
-    printf("Estado: %s\n", saoPaulo.estado);
-    printf("Código: %s\n", saoPaulo.codigo);
-    printf("População: %lld\n", saoPaulo.populacao);
-    printf("Área: %.2f km²\n", saoPaulo.area);
-    printf("PIB: %.2f bilhões de reais\n", saoPaulo.pib);
-    printf("Pontos turísticos: %d\n", saoPaulo.pontos_turisticos);
+   printf("Estado: %s A\n", estado);
+   printf("Código: %d A01\n", codigo);
+   printf("Nome da cidade: São Paulo %s \n", nome);
+  printf("População: %d \n", populacao);
+   printf("Área: %.2f K\n", area);
+   printf("PIB: %.2f bilhoes de reais\n", pib);
+   printf("Pontos turísticos: %d \n", pontos);
 
     return 0;
     
