@@ -5,21 +5,23 @@ int main(){
     printf("commit\n");
     printf("commit\n");
     printf("commit\n");
+printf("commit\n");
+
     
     char estado;
-    char A;
+    char B;
     char codigo;
-    char A01;
+    char B02;
     char nome;
-    char saoPaulo;
-    int populacao=12325000;
-    double area=1521.11;
-    double pib=699.28;
-    int pontos=50;
+    char riodejaneiro;
+    int populacao=6748000;
+    double area=1200.25;
+    double pib=300.50;
+    int pontos=30;
 
-   printf("Estado: %i A\n", estado);
-   printf("Código: %d A01\n", codigo);
-   printf("Nome da cidade: São Paulo %s \n", nome);
+   printf("Estado: %i B\n", estado);
+   printf("Código: %d B02\n", codigo);
+   printf("Nome da cidade: Rio de Janeiro %s \n", nome);
    printf("População: %d \n", populacao);
    printf("Área: %.2f Km\n", area);
    printf("PIB: %.2f bilhões de reais\n", pib);
