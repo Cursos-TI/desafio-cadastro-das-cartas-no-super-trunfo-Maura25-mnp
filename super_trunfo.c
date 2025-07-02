@@ -4,6 +4,7 @@ int main(){
     printf("Desafio Cartas Super Trunfo!\n");
     printf("commit\n");
     printf("commit\n");
+    printf("commit\n");
     
     char estado;
     char A;
@@ -16,13 +17,13 @@ int main(){
     double pib=699.28;
     int pontos=50;
 
-   printf("Estado: %s A\n", estado);
+   printf("Estado: %i A\n", estado);
    printf("Código: %d A01\n", codigo);
    printf("Nome da cidade: São Paulo %s \n", nome);
-  printf("População: %d \n", populacao);
-   printf("Área: %.2f K\n", area);
-   printf("PIB: %.2f bilhoes de reais\n", pib);
-   printf("Pontos turísticos: %d \n", pontos);
+   printf("População: %d \n", populacao);
+   printf("Área: %.2f Km\n", area);
+   printf("PIB: %.2f bilhões de reais\n", pib);
+   printf("Pontos turísticos: %i \n", pontos);
 
     return 0;
     
